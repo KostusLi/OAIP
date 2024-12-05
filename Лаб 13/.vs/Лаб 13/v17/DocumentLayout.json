@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B \u043F\u043E \u041E\u0410\u0438\u041F\\\u041B\u0430\u0431 13\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431 13\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B680F05-BF11-4BF1-85C8-83A648CE6168}|\u041B\u0430\u0431 13.vcxproj|C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B \u043F\u043E \u041E\u0410\u0438\u041F\\\u041B\u0430\u0431 13\\\u041B\u0430\u0431 13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1B680F05-BF11-4BF1-85C8-83A648CE6168}|\u041B\u0430\u0431 13.vcxproj|solutionrelative:\u041B\u0430\u0431 13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FD6FE166-0344-4EE9-BFC4-690735CDB13B}|..\\\u041B\u0430\u0431 13-1\\\u041B\u0430\u0431 13-1.vcxproj|C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431 13-1\\\u041B\u0430\u0431 13-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C9986D0-C25D-49E4-8CE6-7561F9602755}|\u041B\u0430\u0431 13.vcxproj|C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431 13\\\u041B\u0430\u0431 13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C9986D0-C25D-49E4-8CE6-7561F9602755}|\u041B\u0430\u0431 13.vcxproj|solutionrelative:\u041B\u0430\u0431 13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +30,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "\u041B\u0430\u0431 13.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B \u043F\u043E \u041E\u0410\u0438\u041F\\\u041B\u0430\u0431 13\\\u041B\u0430\u0431 13.cpp",
-              "RelativeDocumentMoniker": "\u041B\u0430\u0431 13.cpp",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B \u043F\u043E \u041E\u0410\u0438\u041F\\\u041B\u0430\u0431 13\\\u041B\u0430\u0431 13.cpp",
-              "RelativeToolTip": "\u041B\u0430\u0431 13.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "\u041B\u0430\u0431 13-1.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431 13-1\\\u041B\u0430\u0431 13-1.cpp",
+              "RelativeDocumentMoniker": "..\\\u041B\u0430\u0431 13-1\\\u041B\u0430\u0431 13-1.cpp",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431 13-1\\\u041B\u0430\u0431 13-1.cpp",
+              "RelativeToolTip": "..\\\u041B\u0430\u0431 13-1\\\u041B\u0430\u0431 13-1.cpp",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T13:43:34.611Z",
+              "WhenOpened": "2024-11-30T11:00:20.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u041B\u0430\u0431 13.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431 13\\\u041B\u0430\u0431 13.cpp",
+              "RelativeDocumentMoniker": "\u041B\u0430\u0431 13.cpp",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431 13\\\u041B\u0430\u0431 13.cpp",
+              "RelativeToolTip": "\u041B\u0430\u0431 13.cpp",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T18:16:21.526Z",
               "EditorCaption": ""
             }
           ]
