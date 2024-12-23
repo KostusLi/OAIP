@@ -1,4 +1,4 @@
-﻿Сборка начата 09.12.2024 1:15:10.
+﻿Сборка начата 09.12.2024 14:46:38.
 Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16 доп\Лаб 16 доп.vcxproj" в узле 2 (целевые объекты Build).
      1>PrepareForBuild:
          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -8,7 +8,7 @@
        ClCompile:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "Лаб 16 доп.cpp"
          Лаб 16 доп.cpp
-     1>C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16 доп\Лаб 16 доп.cpp(231,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16 доп\Лаб 16 доп.cpp(198,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16\x64\Debug\Лаб 16 доп.exe" /INCREMENTAL /ILK:"x64\Debug\Лаб 16 доп.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16\x64\Debug\Лаб 16 доп.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16\x64\Debug\Лаб 16 доп.lib" /MACHINE:X64 "x64\Debug\Лаб 16 доп.obj"
          Лаб 16 доп.vcxproj -> C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16\x64\Debug\Лаб 16 доп.exe
@@ -21,9 +21,9 @@
 
        "C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16 доп\Лаб 16 доп.vcxproj" (целевой объект Build ) (1) ->
        (Целевой объект ClCompile) -> 
-         C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16 доп\Лаб 16 доп.cpp(231,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\user\OneDrive\Рабочий стол\Лабы по ОАиП\Лаб 16 доп\Лаб 16 доп.cpp(198,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
 
     Предупреждений: 1
     Ошибок: 0
 
-Прошло времени 00:00:01.99
+Прошло времени 00:00:01.75

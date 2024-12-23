@@ -11,7 +11,7 @@ int main()
 
     //1
 
-    const int n = 10;
+   /* const int n = 10;
     float* ptr = (float*)malloc(n * sizeof(float));
     
     for (int i = 0; i < n; i++)
@@ -27,7 +27,7 @@ int main()
     {
         if (abs(*(ptr+i))<minElement)
         {
-            minElement = *(ptr + i);
+            minElement = abs(*(ptr + i));
             minCount = i;
         }
     }
@@ -58,107 +58,107 @@ int main()
         }
     }
     cout << "Сумма элементов после первого отрицательного: " << sum << endl;
-    free(ptr);
+    free(ptr);*/
 
 
     //2
 
-    //const int rows = 3, cols = 3;
-    //int** array = new int* [rows];
+   /* const int rows = 3, cols = 3;
+    int** array = new int* [rows];
 
-    //for (int i = 0; i < rows; i++) {
-    //    array[i] = new int[cols];
-    //}
+    for (int i = 0; i < rows; i++) {
+        array[i] = new int[cols];
+    }
 
-    //for (int i=0; i<rows; i++)
-    //{
-    //    for (int j=0; j<cols; j++)
-    //    {
-    //        array[i][j] = (-10 + rand() % 21) + (rand() % 11) / 10.0;
-    //        cout << array[i][j] << "\t";
-    //    }
-    //    cout << endl;
-    //}
+    for (int i=0; i<rows; i++)
+    {
+        for (int j=0; j<cols; j++)
+        {
+            array[i][j] = (-10 + rand() % 21) + (rand() % 11) / 10.0;
+            cout << array[i][j] << "\t";
+        }
+        cout << endl;
+    }
 
-    //int product = 1, count = 0;
+    int product = 1, count = 0;
 
-    //for (int i=0; i<rows; i++)
-    //{
-    //    for (int j=0; j<cols; j++)
-    //    {
-    //        if (array[i][j] > 0)
-    //        {
-    //            count++;
-    //        }
-    //        else {
-    //            count = 0;
-    //        }
+    for (int i=0; i<rows; i++)
+    {
+        for (int j=0; j<cols; j++)
+        {
+            if (array[i][j] >= 0)
+            {
+                count++;
+            }
+            else {
+                count = 0;
+            }
 
-    //        if (count==3)
-    //        {
-    //            for (int k=0; k<count; k++)
-    //            {
-    //                product *= array[i][k];
-    //            }
-    //            cout << product << endl;
-    //            count = 0;
-    //            product = 1;
-    //        }
-    //    }
-    //}
+            if (count==3)
+            {
+                for (int k=0; k<count; k++)
+                {
+                    product *= array[i][k];
+                }
+                cout << product << endl;
+                count = 0;
+                product = 1;
+            }
+        }
+    }
 
-    //cout << endl;
-    //cout << endl;
+    cout << endl;
+    cout << endl;
 
-    //int maxElement = 0;
+    int maxElement = 0;
 
-    //for (int i = 0; i < rows; i++)
-    //{
-    //    for (int j = 0; j < cols; j++)
-    //    {
-    //        if (i==1 && j==0)
-    //        {
-    //            maxElement += array[i][j];
-    //        }
-    //        if (i==2 && j==1)
-    //        {
-    //            maxElement += array[i][j];
-    //        }
-    //    }
-    //}
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < cols; j++)
+        {
+            if (i==1 && j==0)
+            {
+                maxElement += array[i][j];
+            }
+            if (i==2 && j==1)
+            {
+                maxElement += array[i][j];
+            }
+        }
+    }
 
-    //cout << maxElement << endl;
+    cout << maxElement << endl;
 
-    //int maxElement1 = 0;
+    int maxElement1 = 0;
 
-    //for (int i = 0; i < rows; i++)
-    //{
-    //    for (int j = 0; j < cols; j++)
-    //    {
-    //        if (i == 0 && j == 1)
-    //        {
-    //            maxElement1 += array[i][j];
-    //        }
-    //        if (i == 1 && j == 2)
-    //        {
-    //            maxElement1 += array[i][j];
-    //        }
-    //    }
-    //}
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < cols; j++)
+        {
+            if (i == 0 && j == 1)
+            {
+                maxElement1 += array[i][j];
+            }
+            if (i == 1 && j == 2)
+            {
+                maxElement1 += array[i][j];
+            }
+        }
+    }
 
-    //cout << maxElement1 << endl;
+    cout << maxElement1 << endl;
 
-    //if (maxElement > maxElement1)
-    //{
-    //    cout << "Максимальная сумма элементов из диагонали, параллельных главной: " << maxElement << endl;
-    //}
-    //else {
-    //    cout << "Максимальная сумма элементов из диагонали, параллельных главной: " << maxElement1 << endl;
-    //}
-    //for (int i = 0; i < rows; i++) {
-    //delete[] array[i];
-    //}
-    //delete[] array;
+    if (maxElement > maxElement1)
+    {
+        cout << "Максимальная сумма элементов из диагонали, параллельных главной: " << maxElement << endl;
+    }
+    else {
+        cout << "Максимальная сумма элементов из диагонали, параллельных главной: " << maxElement1 << endl;
+    }
+    for (int i = 0; i < rows; i++) {
+    delete[] array[i];
+    }
+    delete[] array;*/
 
 
 //B2
@@ -188,7 +188,7 @@ int main()
 //}
 //
 //cout << "Наибольшее значание k, при котором A[k]<0: " << k << endl;
-//free(ptr);
+//free(A);
 
 
 //2

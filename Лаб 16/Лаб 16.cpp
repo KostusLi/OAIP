@@ -17,7 +17,7 @@ void minElSumEl(int n, float* minElement, float* sum, float** array)
     {
         if (abs((*array)[i]) < *minElement)
         {
-            *minElement = (*array)[i];
+            *minElement = abs((*array)[i]);
         }
     }
     int firstMinimal = 0;
